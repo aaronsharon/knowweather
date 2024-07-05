@@ -6,9 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/* 
 .main-component-sec {
-  /* display: flex; */
   background-clip: border-box;
 }
 
@@ -28,7 +27,7 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
-  /* flex-direction: column; */
+
 
   .input-field {
     width: 40%;
@@ -43,4 +42,38 @@ body {
     font-style: italic;
     font-size: 14px;
   }
+} */
+
+
+/* App.css */
+
+.main-component-sec {
+  text-align: center;
+  padding: 20px;
 }
+
+.main-navbar-title {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 20px;
+}
+
