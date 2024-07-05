@@ -8,6 +8,13 @@ function App() {
         <h1>Know Weather API</h1>
         <h5>Get the latest weather updates, Aaron!</h5>
       </section>
+
+
+      <section>
+        <div className="main-input-sec">
+          <input className="input-field" type="text" placeholder="Enter City Name" />
+        </div>
+      </section>
     </div>
   );
 }
