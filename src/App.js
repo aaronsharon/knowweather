@@ -15,6 +15,13 @@ function App() {
           <input className="input-field" type="text" placeholder="Enter City Name" />
         </div>
       </section>
+
+
+      <section>
+        <div className="main-button-sec">
+          
+        </div>
+      </section>
     </div>
   );
 }
