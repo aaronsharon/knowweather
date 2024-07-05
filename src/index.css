@@ -118,3 +118,9 @@ body {
   color: red;
   margin-top: 20px;
 }
+
+
+.temp-result {
+  font-size: 20px;
+  font-weight: bold;
+}
