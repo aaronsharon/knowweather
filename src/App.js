@@ -1,5 +1,5 @@
 // App.js
-import React, { useState } from "react";
+import React, { useState, useEffect }from "react";
 import "./App.css";
 
 function App() {
@@ -7,6 +7,10 @@ function App() {
   const [suggestions, setSuggestions] = useState([]);
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState(null);
+
+  useEffect(() => {
+    document.title = "Know Weather API";
+  }, []);
 
   const apiKey = "41ba0190f9554e53834135950240507"; // Your WeatherAPI.com API key
 
