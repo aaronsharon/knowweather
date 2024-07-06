@@ -104,7 +104,9 @@ function App() {
           {weatherData && (
             <div className="weather-info">
               <h2>{weatherData.location.name}</h2>
-              <p className="temp-result">Temperature: {weatherData.current.temp_c} °C</p>
+              <p className="temp-result">
+                Temperature: {weatherData.current.temp_c} °C
+              </p>
               <p>Description: {weatherData.current.condition.text}</p>
               <img
                 src={weatherData.current.condition.icon}
