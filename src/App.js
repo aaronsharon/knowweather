@@ -9,7 +9,7 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    document.title = "Know Weather API";
+    document.title = "Know Weather";
   }, []);
 
   const apiKey = "41ba0190f9554e53834135950240507"; // Your WeatherAPI.com API key
